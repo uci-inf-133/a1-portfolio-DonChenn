@@ -1,6 +1,12 @@
 body {
-    background-color: pink;
-    padding: 24px;
+    background: linear-gradient(pink, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+main {
+    padding: 16px;
 }
 
 button {
@@ -8,13 +14,15 @@ button {
 }
 
 nav {
+    background-color: lightblue;
     display: flex;
     gap: 18px;
-    justify-content: center;
+}
+
+.home {
+    align-items: start;
 }
 
 .nav_buttons {
-    display: flex;
-    gap: 18px;
     align-items: end;
 }
