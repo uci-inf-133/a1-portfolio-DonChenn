@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Projects from './pages/Projects';
-import ProjectDetails from './pages/ProjectDetails';
-import NavBar from './components/layout/NavBar';
+import Projects from "./pages/Projects";
+import ProjectDetails from "./pages/ProjectDetails";
+import NavBar from "./components/layout/NavBar";
 
 function App() {
   return (

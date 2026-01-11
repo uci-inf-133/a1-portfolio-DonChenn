@@ -13,7 +13,9 @@ function NavBar() {
 
         {/* <!-- nav buttons --> */}
         <div className="nav_buttons">
-          <a href={resume} target="_blank">Resume</a>
+          <a href={resume} target="_blank">
+            Resume
+          </a>
           <Link to="/projects">Projects</Link>
         </div>
       </nav>

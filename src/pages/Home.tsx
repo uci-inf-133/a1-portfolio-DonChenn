@@ -7,7 +7,7 @@ function Home() {
       <Introduction />
       <ProjectCard />
     </>
-  )
+  );
 }
 
 export default Home;
