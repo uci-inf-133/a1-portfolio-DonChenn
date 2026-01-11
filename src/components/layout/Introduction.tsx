@@ -3,9 +3,9 @@ import headshot from "../../../public/headshot.jpg";
 function Introduction() {
   return (
     <section className="introduction">
+      <h1>Donovan Chen</h1>
       <div>
         <p>
-          <h1>Donovan Chen</h1>
           Computer Science Hello! My name is Donovan. I am a fourth-year UC
           Irvine student pursuing a B.S in Computer Science with a
           specialization in Intelligent Systems! I have a strong interest in
@@ -15,9 +15,9 @@ function Introduction() {
           professional interests, you can find me getting boba, playing
           basketball, or even with my film camera taking pictures!
         </p>
-      </div>
 
-      <img src={headshot} alt="Donovan Chen" width="500" />
+        <img src={headshot} alt="Donovan Chen" width="500" />
+      </div>
 
       <div>
         <button className="button">
