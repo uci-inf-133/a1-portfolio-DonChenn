@@ -13,10 +13,10 @@ function NavBar() {
 
         {/* nav buttons */}
         <div className="nav_buttons">
-          <a href={resume} target="_blank">
-            Resume
-          </a>
           <Link to="/projects">Projects</Link>
+          <a href={resume} target="_blank">
+            Resumé
+          </a>
         </div>
       </nav>
     </header>

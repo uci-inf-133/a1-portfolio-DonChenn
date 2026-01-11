@@ -1,9 +1,25 @@
 nav {
   background-color: lightblue;
+  justify-content: space-between;
   display: flex;
   gap: 18px;
+  padding: 16px;
+}
+
+.nav_buttons {
+  display: flex;
+  gap: 24px;
 }
 
 .home {
-    background-color: darkorange;
+  background-color: darkorange;
+  padding: 16px;
+}
+
+.projects {
+  background-color: red;
+}
+
+.card {
+  background-color: green;
 }
