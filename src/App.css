@@ -7,23 +7,31 @@ body {
 
 nav {
   background-color: #f9f9f9;
-  justify-content: space-between;
-  display: flex;
-  gap: 18px;
-  padding: 32px;
 }
 
 .logo {
-    font-size: 24px;
-    font-family: Inter, sans-serif;
-    font-weight: 600;
-    color: #2a2d38;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  color: #2a2d38;
 }
 
-.nav_buttons {
+.logo-name {
+  text-decoration: none;
+  color: #2a2d38;
+}
+
+.nav-links {
   display: flex;
   list-style: none;
   gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #2a2d38;
+  font-weight: 300;
+  transition: color 0.2s ease;
 }
 
 .home {
@@ -34,5 +42,3 @@ nav {
 .projects {
   background-color: #f9f9f9;
 }
-
-
