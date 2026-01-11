@@ -42,3 +42,15 @@ nav {
 .projects {
   background-color: #f9f9f9;
 }
+
+.introduction img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    margin: 10px 10px 10px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
