@@ -7,17 +7,21 @@ function NavBar() {
       {/* Navigation Bar */}
       <nav>
         {/* name button */}
-        <div className="home_button">
+        <div className="logo">
           <Link to="/">Donovan Chen</Link>
         </div>
 
         {/* nav buttons */}
-        <div className="nav_buttons">
-          <Link to="/projects">Projects</Link>
-          <a href={resume} target="_blank">
-            Resumé
-          </a>
-        </div>
+        <ul className="nav_buttons">
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <a href={resume} target="_blank">
+              Resumé
+            </a>
+          </li>
+        </ul>
       </nav>
     </header>
   );
