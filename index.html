@@ -1,152 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Donovan Chen</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 py-4">
-            <div class="container-fluid">
-                <div class="logo">
-                    <a class="logo-name h4 text-decoration-none text-dark" href="index.html">
-                        Donovan Chen
-                    </a>
-                </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 py-4">
+        <div class="container-fluid">
+          <div class="logo">
+            <a
+              class="logo-name h4 text-decoration-none text-dark"
+              href="index.html"
+            >
+              Donovan Chen
+            </a>
+          </div>
 
-                <ul class="nav-links d-flex list-unstyled m-0 gap-4">
-                    <li>
-                        <a href="projects.html" class="text-decoration-none text-dark">Projects</a>
-                    </li>
-                    <li>
-                        <a href="about.html" class="text-decoration-none text-dark">About</a>
-                    </li>
-                    <li>
-                        <a class="text-decoration-none text-dark" href="public/Donovan_Chen_2026.pdf" target="_blank">
-                            Resumé
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+          <ul class="nav-links d-flex list-unstyled m-0 gap-4">
+            <li>
+              <a href="about.html" class="text-decoration-none text-dark"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-decoration-none text-dark"
+                href="public/Donovan_Chen_2026.pdf"
+                target="_blank"
+              >
+                Resumé
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="home">
-        <section class="introduction container">
-            <h1>Donovan Chen</h1>
-            <div>
-                <p>
-                    Computer Science Hello! My name is Donovan. I am a fourth-year UC
-                    Irvine student pursuing a B.S in Computer Science with a
-                    specialization in Intelligent Systems! I have a strong interest in
-                    full-stack development, enjoying the challenge that comes along with
-                    it. I am driven by a desire for continuous learning, and I am always
-                    seeking new opportunities to refine my skills. Outside of my
-                    professional interests, you can find me getting boba, playing
-                    basketball, or even with my film camera taking pictures!
+      <section class="introduction container">
+        <h1>Donovan Chen</h1>
+        <div>
+          <p>
+            Computer Science Hello! My name is Donovan. I am a fourth-year UC
+            Irvine student pursuing a B.S in Computer Science with a
+            specialization in Intelligent Systems! I have a strong interest in
+            full-stack development, enjoying the challenge that comes along with
+            it. I am driven by a desire for continuous learning, and I am always
+            seeking new opportunities to refine my skills. Outside of my
+            professional interests, you can find me getting boba, playing
+            basketball, or even with my film camera taking pictures!
+          </p>
+
+          <img src="public/headshot.jpg" alt="Donovan Chen" width="500" />
+        </div>
+
+        <div class="mt-3">
+          <button class="button">
+            <a
+              href="https://github.com/DonChenn"
+              target="_blank"
+              style="text-decoration: none; color: black"
+            >
+              GitHub
+            </a>
+          </button>
+
+          <button class="button">
+            <a
+              href="https://www.linkedin.com/in/donovan-chen"
+              target="_blank"
+              style="text-decoration: none; color: black"
+            >
+              LinkedIn
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <hr class="my-5" />
+
+      <section class="projects">
+        <div class="container-fluid p-0">
+          <article class="container py-5 border-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+                <div
+                  class="position-relative"
+                  style="width: 100%; max-width: 400px"
+                >
+                  <img
+                    src="public/projects/purin_car/purin_car_service.png"
+                    class="img-fluid rounded shadow"
+                    alt="Purin Car mockup 1"
+                    style="width: 80%"
+                  />
+                  <img
+                    src="public/projects/purin_car/purin_car_service.png"
+                    class="img-fluid rounded shadow position-absolute"
+                    alt="Purin Car mockup 2"
+                    style="
+                      width: 60%;
+                      bottom: -20px;
+                      right: 0;
+                      border: 2px solid black;
+                      bottom: -20px;
+                      right: 0;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 text-center text-md-start px-md-5">
+                <h1 class="display-4 fw-bold">Purin Car</h1>
+                <p class="lead fs-4 text-secondary">
+                  Android application using Kotlin, Room Database and Jetpack
+                  Compose Android app for tracking vehicle maintenance intervals
+                  with a reactive UI.
                 </p>
-
-                <img src="public/headshot.jpg" alt="Donovan Chen" width="500" />
+                <a
+                  href="project-details.html?id=purin-car"
+                  class="btn btn-link p-0 text-decoration-none fw-bold fs-5"
+                >
+                  read more <span class="ms-2">→</span>
+                </a>
+              </div>
             </div>
+          </article>
 
-            <div class="mt-3">
-                <button class="button">
-                    <a href="https://github.com/DonChenn" target="_blank" style="text-decoration: none; color: black;">
-                         GitHub
-                    </a>
-                </button>
-
-                <button class="button">
-                    <a href="https://www.linkedin.com/in/donovan-chen" target="_blank" style="text-decoration: none; color: black;">
-                         LinkedIn
-                    </a>
-                </button>
+          <article class="container py-5 border-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+                <div
+                  class="position-relative"
+                  style="width: 100%; max-width: 400px"
+                >
+                  <img
+                    src="public/projects/glub_world/login.png"
+                    class="img-fluid rounded shadow"
+                    alt="Glub World mockup 1"
+                    style="width: 80%"
+                  />
+                  <img
+                    src="public/projects/glub_world/login.png"
+                    class="img-fluid rounded shadow position-absolute"
+                    alt="Glub World mockup 2"
+                    style="
+                      width: 60%;
+                      border: 2px solid black;
+                      bottom: -20px;
+                      right: 0;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 text-center text-md-start px-md-5">
+                <h1 class="display-4 fw-bold">Glub World</h1>
+                <p class="lead fs-4 text-secondary">
+                  Video game website using HTML, JavaScript, and CSS with AWS
+                  for my significant other.
+                </p>
+                <a
+                  href="project-details.html?id=glub-world"
+                  class="btn btn-link p-0 text-decoration-none fw-bold fs-5"
+                >
+                  read more <span class="ms-2">→</span>
+                </a>
+              </div>
             </div>
-        </section>
+          </article>
 
-        <hr class="my-5">
-
-        <section class="projects">
-            <div class="container-fluid p-0">
-                
-                <article class="container py-5 border-bottom">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
-                            <div class="position-relative" style="width: 100%; max-width: 400px;">
-                                <img src="public/projects/purin_car/purin_car_service.png" class="img-fluid rounded shadow" alt="Purin Car mockup 1" style="width: 80%;">
-                                <img src="public/projects/purin_car/purin_car_service.png" class="img-fluid rounded shadow position-absolute" alt="Purin Car mockup 2" style="width: 60%; bottom: -20px; right: 0; border: 2px solid black; bottom: -20px; right: 0;">
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center text-md-start px-md-5">
-                            <h1 class="display-4 fw-bold">Purin Car</h1>
-                            <p class="lead fs-4 text-secondary">Android application using Kotlin, Room Database and Jetpack Compose Android app for tracking vehicle maintenance intervals with a reactive UI.</p>
-                            <a href="project-details.html?id=purin-car" class="btn btn-link p-0 text-decoration-none fw-bold fs-5">
-                                read more <span class="ms-2">→</span>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="container py-5 border-bottom">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
-                            <div class="position-relative" style="width: 100%; max-width: 400px;">
-                                <img src="public/projects/glub_world/login.png" class="img-fluid rounded shadow" alt="Glub World mockup 1" style="width: 80%;">
-                                <img src="public/projects/glub_world/login.png" class="img-fluid rounded shadow position-absolute" alt="Glub World mockup 2" style="width: 60%; border: 2px solid black; bottom: -20px; right: 0;">
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center text-md-start px-md-5">
-                            <h1 class="display-4 fw-bold">Glub World</h1>
-                            <p class="lead fs-4 text-secondary">Video game website using HTML, JavaScript, and CSS with AWS for my significant other.</p>
-                            <a href="project-details.html?id=glub-world" class="btn btn-link p-0 text-decoration-none fw-bold fs-5">
-                                read more <span class="ms-2">→</span>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="container py-5 border-bottom">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
-                            <div class="position-relative" style="width: 100%; max-width: 400px;">
-                                <img src="public/projects/fabflix/login.png" class="img-fluid rounded shadow" alt="Fabflix mockup 1" style="width: 80%;">
-                                <img src="public/projects/fabflix/login.png" class="img-fluid rounded shadow position-absolute" alt="Fabflix mockup 2" style="width: 60%; border: 2px solid black; bottom: -20px; right: 0;">
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center text-md-start px-md-5">
-                            <h1 class="display-4 fw-bold">Fabflix</h1>
-                            <p class="lead fs-4 text-secondary">Movie catalog website using Java Servlets, MySQL, HTML, JavaScript/jQuery, and CSS with AWS, Maven, and Docker.</p>
-                            <a href="project-details.html?id=fabflix" class="btn btn-link p-0 text-decoration-none fw-bold fs-5">
-                                read more <span class="ms-2">→</span>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="container py-5 border-bottom">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
-                            <div class="position-relative" style="width: 100%; max-width: 400px;">
-                                <img src="public/projects/guidance_glasses/guidance_glasses.png" class="img-fluid rounded shadow" alt="Guidance Glasses mockup 1" style="width: 80%;">
-                                <img src="public/projects/guidance_glasses/guidance_glasses.png" class="img-fluid rounded shadow position-absolute" alt="Guidance Glasses mockup 2" style="width: 60%; border: 2px solid black; bottom: -20px; right: 0;">
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center text-md-start px-md-5">
-                            <h1 class="display-4 fw-bold">Guidance Glasses</h1>
-                            <p class="lead fs-4 text-secondary">A pair of glasses that can assist the visually impaired to navigate urban environments by providing information about their surroundings via haptic feedback.</p>
-                            <a href="project-details.html?id=guidance-glasses" class="btn btn-link p-0 text-decoration-none fw-bold fs-5">
-                                read more <span class="ms-2">→</span>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
+          <article class="container py-5 border-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+                <div
+                  class="position-relative"
+                  style="width: 100%; max-width: 400px"
+                >
+                  <img
+                    src="public/projects/fabflix/login.png"
+                    class="img-fluid rounded shadow"
+                    alt="Fabflix mockup 1"
+                    style="width: 80%"
+                  />
+                  <img
+                    src="public/projects/fabflix/login.png"
+                    class="img-fluid rounded shadow position-absolute"
+                    alt="Fabflix mockup 2"
+                    style="
+                      width: 60%;
+                      border: 2px solid black;
+                      bottom: -20px;
+                      right: 0;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 text-center text-md-start px-md-5">
+                <h1 class="display-4 fw-bold">Fabflix</h1>
+                <p class="lead fs-4 text-secondary">
+                  Movie catalog website using Java Servlets, MySQL, HTML,
+                  JavaScript/jQuery, and CSS with AWS, Maven, and Docker.
+                </p>
+                <a
+                  href="project-details.html?id=fabflix"
+                  class="btn btn-link p-0 text-decoration-none fw-bold fs-5"
+                >
+                  read more <span class="ms-2">→</span>
+                </a>
+              </div>
             </div>
-        </section>
+          </article>
+
+          <article class="container py-5 border-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+                <div
+                  class="position-relative"
+                  style="width: 100%; max-width: 400px"
+                >
+                  <img
+                    src="public/projects/guidance_glasses/guidance_glasses.png"
+                    class="img-fluid rounded shadow"
+                    alt="Guidance Glasses mockup 1"
+                    style="width: 80%"
+                  />
+                  <img
+                    src="public/projects/guidance_glasses/guidance_glasses.png"
+                    class="img-fluid rounded shadow position-absolute"
+                    alt="Guidance Glasses mockup 2"
+                    style="
+                      width: 60%;
+                      border: 2px solid black;
+                      bottom: -20px;
+                      right: 0;
+                    "
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 text-center text-md-start px-md-5">
+                <h1 class="display-4 fw-bold">Guidance Glasses</h1>
+                <p class="lead fs-4 text-secondary">
+                  A pair of glasses that can assist the visually impaired to
+                  navigate urban environments by providing information about
+                  their surroundings via haptic feedback.
+                </p>
+                <a
+                  href="project-details.html?id=guidance-glasses"
+                  class="btn btn-link p-0 text-decoration-none fw-bold fs-5"
+                >
+                  read more <span class="ms-2">→</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
