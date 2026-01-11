@@ -1,7 +1,7 @@
-import fabflix_thumbnail from "../../../public/projects/fabflix/login.png";
-import glub_world_thumbnail from "../../../public/projects/glub_world/login.png";
-import guidance_glasses_thumbnail from "../../../public/projects/guidance_glasses/guidance_glasses.png";
-import purin_car_thumbnail from "../../../public/projects/purin_car/purin_car_records.png";
+import fabflix_thumbnail from "../../public/projects/fabflix/login.png";
+import glub_world_thumbnail from "../../public/projects/glub_world/login.png";
+import guidance_glasses_thumbnail from "../../public/projects/guidance_glasses/guidance_glasses.png";
+import purin_car_thumbnail from "../../public/projects/purin_car/purin_car_records.png";
 
 export interface Project {
   title: string;
