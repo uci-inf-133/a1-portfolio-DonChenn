@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <header>
-      {/* <!-- Navigation Bar --> */}
+      {/* Navigation Bar */}
       <nav>
-        {/* <!-- name button --> */}
-        <div className="home">
+        {/* name button */}
+        <div className="home_button">
           <Link to="/">Donovan Chen</Link>
         </div>
 
-        {/* <!-- nav buttons --> */}
+        {/* nav buttons */}
         <div className="nav_buttons">
           <a href={resume} target="_blank">
             Resume

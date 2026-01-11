@@ -1,18 +1,3 @@
-body {
-  background: linear-gradient(pink, lightgreen);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0px;
-}
-
-main {
-  padding: 16px;
-}
-
-button {
-  background-color: purple;
-}
-
 nav {
   background-color: lightblue;
   display: flex;
@@ -20,9 +5,5 @@ nav {
 }
 
 .home {
-  align-items: start;
-}
-
-.nav_buttons {
-  align-items: end;
+    background-color: darkorange;
 }
