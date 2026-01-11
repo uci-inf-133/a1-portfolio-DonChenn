@@ -1,4 +1,5 @@
-import resume from '../../../public/Donovan_Chen_2026.pdf'
+import resume from "../../../public/Donovan_Chen_2026.pdf";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -7,15 +8,13 @@ function NavBar() {
       <nav>
         {/* <!-- name button --> */}
         <div className="home">
-          <a href="index.html">Donovan Chen</a>
+          <Link to="/">Donovan Chen</Link>
         </div>
 
         {/* <!-- nav buttons --> */}
         <div className="nav_buttons">
-          <a href="prjects.htmol">Projects</a>
-          <a href={resume} target="_blank">
-            Resume
-          </a>
+          <a href={resume} target="_blank">Resume</a>
+          <Link to="/projects">Projects</Link>
         </div>
       </nav>
     </header>
