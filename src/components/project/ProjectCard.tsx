@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import fabflix_thumbnail from '../../../public/projects/fabflix/login.png'
 import glub_world_thumbnail from '../../../public/projects/glub_world/login.png'
 import guidance_glasses_thumbnail from '../../../public/projects/guidance_glasses/guidance_glasses.png'
