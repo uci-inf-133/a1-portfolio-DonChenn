@@ -1,107 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Purin Car | Donovan Chen</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="nav-bar">
-            <div class="nav-container">
-                <div class="logo-container">
-                    <a class="logo-name" href="../index.html">Donovan Chen</a>
-                </div>
-                <ul class="nav-links">
-                    <li><a class="nav-projects" href="../projects.html" style="font-weight: 800;">projects</a></li>
-                    <li><a class="nav-about" href="../about.html">about</a></li>
-                    <li><a class="nav-resume" href="../public/Donovan_Chen_2026.pdf" target="_blank">resume</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <div class="logo-container">
+            <a class="logo-name" href="../index.html">Donovan Chen</a>
+          </div>
+          <ul class="nav-links">
+            <li>
+              <a
+                class="nav-projects"
+                href="../projects.html"
+                style="font-weight: 800"
+                >projects</a
+              >
+            </li>
+            <li><a class="nav-about" href="../about.html">about</a></li>
+            <li>
+              <a
+                class="nav-resume"
+                href="../public/Donovan_Chen_2026.pdf"
+                target="_blank"
+                >resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="project-detail-body">
-        <div class="project-details-container">
-            <div class="project-details-header">
-                <h1>Purin Car</h1>
-                <h2 class="project-subtitle">ANDROID APP · FULL STACK DEVELOPMENT</h2>
-            </div>
-            <div class="project-thumbnail-container">
-                <img class="project-details-thumbnail" src="../public/projects/purin_car/thumbnail.png" alt="Purin Car thumbnail">
-            </div>
-            <table class="project-info">
-                <thead>
-                    <tr>
-                        <th>Role</th>
-                        <th>Tech Stack</th>
-                        <th>Links</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Full Stack Developer</td>
-                        <td>
-                            <ul class="project-info-list">
-                                <li>Kotlin</li>
-                                <li>Jetpack Compose</li>
-                                <li>Room Database</li>
-                                <li>SmartCar API</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul class="project-info-list">
-                                <li><a href="https://github.com/DonChenn/PurinCar" target="_blank">GitHub</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <div class="project-details-container">
+        <div class="project-details-header">
+          <h1>Purin Car</h1>
+          <h2 class="project-subtitle">ANDROID APP · FULL STACK DEVELOPMENT</h2>
         </div>
-
-        <div class="project-information">
-            <div class="project-description-item">
-                <h3>The Problem</h3>
-                <p>Car software often fails to provide comprehensive maintenance tracking, limiting alerts strictly to engine oil changes while neglecting other critical services. Furthermore, it lacks transparency regarding the mileage or time remaining until the next service, only triggering a notification within 100 miles of the due date. This creates a blind spot for drivers, resulting in surprise warnings that leave almost no time to plan or schedule necessary maintenance.</p>
-            </div>
-            <div class="project-description-item">
-                <h3>My Solution</h3>
-                <p>Purin Car is an Android Jetpack Compose application built to extend the lifespan of my car (2025 Toyota Camry) to hopefully 300,000+ miles. Using SmartCar API to connect to your car, it automatically updates the odometer on your app and checks for any upcoming services needed based on mileage or time intervals ensuring NO service is overlooked. Purin Car tracks and manages:</p>
-                <ul>
-                    <li>Engine Oil (5000 miles or 6 months)</li>
-                    <li>Air Filters (15000 miles or 1 year)</li>
-                    <li>Engine Coolant (30000 miles or 2 years)</li>
-                    <li>Brake Fluid (30000 miles or 2 years)</li>
-                    <li>Battery Fan (30000 miles or 3 years)</li>
-                    <li>Transmission Fluid (60000 miles or 3 years)</li>
-                    <li>Spark Plugs (100000 miles or 5 years)</li>
+        <div class="project-thumbnail-container">
+          <img
+            class="project-details-thumbnail"
+            src="../public/projects/purin_car/thumbnail.png"
+            alt="Purin Car thumbnail"
+          />
+        </div>
+        <table class="project-info">
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Tech Stack</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Full Stack Developer</td>
+              <td>
+                <ul class="project-info-list">
+                  <li>Kotlin</li>
+                  <li>Jetpack Compose</li>
+                  <li>Room Database</li>
+                  <li>SmartCar API</li>
                 </ul>
-                <div class="description-images-container">
-                    <img src="../public/projects/purin_car/purin_car_select.png" alt="My Solution 1" class="description-image">
-                    <img src="../public/projects/purin_car/purin_car_service.png" alt="My Solution 2" class="description-image">
-                    <img src="../public/projects/purin_car/purin_car_records.png" alt="My Solution 3" class="description-image">
-                </div>
-            </div>
+              </td>
+              <td>
+                <ul class="project-info-list">
+                  <li>
+                    <a
+                      href="https://github.com/DonChenn/PurinCar"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="project-information">
+        <div class="project-description-item">
+          <h3>The Problem</h3>
+          <p>
+            Car software often fails to provide comprehensive maintenance
+            tracking, limiting alerts strictly to engine oil changes while
+            neglecting other critical services. Furthermore, it lacks
+            transparency regarding the mileage or time remaining until the next
+            service, only triggering a notification within 100 miles of the due
+            date. This creates a blind spot for drivers, resulting in surprise
+            warnings that leave almost no time to plan or schedule necessary
+            maintenance.
+          </p>
         </div>
+        <div class="project-description-item">
+          <h3>My Solution</h3>
+          <p>
+            Purin Car is an Android Jetpack Compose application built to extend
+            the lifespan of my car (2025 Toyota Camry) to hopefully 300,000+
+            miles. Using SmartCar API to connect to your car, it automatically
+            updates the odometer on your app and checks for any upcoming
+            services needed based on mileage or time intervals ensuring NO
+            service is overlooked. Purin Car tracks and manages:
+          </p>
+          <ul>
+            <li>Engine Oil (5000 miles or 6 months)</li>
+            <li>Air Filters (15000 miles or 1 year)</li>
+            <li>Engine Coolant (30000 miles or 2 years)</li>
+            <li>Brake Fluid (30000 miles or 2 years)</li>
+            <li>Battery Fan (30000 miles or 3 years)</li>
+            <li>Transmission Fluid (60000 miles or 3 years)</li>
+            <li>Spark Plugs (100000 miles or 5 years)</li>
+          </ul>
+          <div class="description-images-container">
+            <img
+              src="../public/projects/purin_car/purin_car_select.png"
+              alt="My Solution 1"
+              class="description-image"
+            />
+            <img
+              src="../public/projects/purin_car/purin_car_service.png"
+              alt="My Solution 2"
+              class="description-image"
+            />
+            <img
+              src="../public/projects/purin_car/purin_car_records.png"
+              alt="My Solution 3"
+              class="description-image"
+            />
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div class="footer-container">
-            <p class="footer-text">Stay in touch</p>
-            <div class="icon-container">
-                <a class="icon-link" href="https://www.linkedin.com/in/donovan-chen/" target="_blank" aria-label="LinkedIn">
-                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-                </a>
-                <a class="icon-link" href="https://github.com/DonChenn" target="_blank" aria-label="GitHub">
-                    <span class="fa-brands fa-github" aria-hidden="true"></span>
-                </a>
-                <a class="icon-link" href="mailto:DonovanAChen@email.com" aria-label="Email">
-                    <span class="fa-solid fa-envelope" aria-hidden="true"></span>
-                </a>
-            </div>
+      <div class="footer-container">
+        <p class="footer-text">Stay in touch</p>
+        <div class="icon-container">
+          <a
+            class="icon-link"
+            href="https://www.linkedin.com/in/donovan-chen/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+          </a>
+          <a
+            class="icon-link"
+            href="https://github.com/DonChenn"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <span class="fa-brands fa-github" aria-hidden="true"></span>
+          </a>
+          <a
+            class="icon-link"
+            href="mailto:DonovanAChen@email.com"
+            aria-label="Email"
+          >
+            <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+          </a>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

@@ -1,112 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donovan Chen | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="nav-bar">
-            <div class="nav-container">
-                <div class="logo-container">
-                    <a class="logo-name" href="index.html">Donovan Chen</a>
-                </div>
-                <ul class="nav-links">
-                    <li><a class="nav-projects" href="projects.html">projects</a></li>
-                    <li><a class="nav-about" href="about.html">about</a></li>
-                    <li><a class="nav-resume" href="public/Donovan_Chen_2026.pdf" target="_blank">resume</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <div class="logo-container">
+            <a class="logo-name" href="index.html">Donovan Chen</a>
+          </div>
+          <ul class="nav-links">
+            <li><a class="nav-projects" href="projects.html">projects</a></li>
+            <li><a class="nav-about" href="about.html">about</a></li>
+            <li>
+              <a
+                class="nav-resume"
+                href="public/Donovan_Chen_2026.pdf"
+                target="_blank"
+                >resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="home">
-        <section class="intro">
-            <div class="intro-container">
-                <div class="intro-text-container">
-                    <h1 class="name">
-                        <span class="name-black">Hello, I'm </span>
-                        <span class="name-color">Donovan!</span>
-                    </h1>
-                    <p class="description">
-                        I'm currently at UC Irvine studying Computer Science with an
-                        interest in Full-Stack Development and Intelligent Systems.
-                    </p>
-                </div>
-                <div class="intro-img-container">
-                    <img src="public/headshot.jpg" alt="Donovan Chen">
-                </div>
+      <section class="intro">
+        <div class="intro-container">
+          <div class="intro-text-container">
+            <h1 class="name">
+              <span class="name-black">Hello, I'm </span>
+              <span class="name-color">Donovan!</span>
+            </h1>
+            <p class="description">
+              I'm currently at UC Irvine studying Computer Science with an
+              interest in Full-Stack Development and Intelligent Systems.
+            </p>
+          </div>
+          <div class="intro-img-container">
+            <img src="public/headshot.jpg" alt="Donovan Chen" />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="project-cards">
+          <!-- SMYZE -->
+          <a href="projects/smyze.html" class="project-card-container">
+            <div class="project-image-wrapper">
+              <img
+                src="public/projects/smyze/thumbnail.png"
+                alt="SMYZE"
+                class="project-thumbnail"
+              />
             </div>
-        </section>
-
-        <section class="projects-section">
-            <h2>Featured Projects</h2>
-            <div class="project-cards">
-                <!-- SMYZE -->
-                <a href="projects/smyze.html" class="project-card-container">
-                    <div class="project-image-wrapper">
-                        <img src="public/projects/smyze/thumbnail.png" alt="SMYZE" class="project-thumbnail">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">SMYZE</h3>
-                        <p class="description">MOBILE APP · WEB APP · FULL STACK DEVELOPMENT</p>
-                    </div>
-                </a>
-
-                <!-- Purin Car -->
-                <a href="projects/purin-car.html" class="project-card-container">
-                    <div class="project-image-wrapper">
-                        <img src="public/projects/purin_car/thumbnail.png" alt="Purin Car" class="project-thumbnail">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Purin Car</h3>
-                        <p class="description">ANDROID APP · FULL STACK DEVELOPMENT</p>
-                    </div>
-                </a>
-
-                <!-- Fabflix -->
-                <a href="projects/fabflix.html" class="project-card-container">
-                    <div class="project-image-wrapper">
-                        <img src="public/projects/fabflix/thumbnail.png" alt="Fabflix" class="project-thumbnail">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Fabflix</h3>
-                        <p class="description">WEB APP · FULL STACK DEVELOPMENT</p>
-                    </div>
-                </a>
-
-                <!-- Guidance Glasses -->
-                <a href="projects/guidance-glasses.html" class="project-card-container">
-                    <div class="project-image-wrapper">
-                        <img src="public/projects/guidance_glasses/thumbnail.png" alt="Guidance Glasses" class="project-thumbnail">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Guidance Glasses</h3>
-                        <p class="description">EMBEDDED SYSTEMS · COMPUTER VISION · MACHINE LEARNING</p>
-                    </div>
-                </a>
+            <div class="project-content">
+              <h3 class="project-title">SMYZE</h3>
+              <p class="description">
+                MOBILE APP · WEB APP · FULL STACK DEVELOPMENT
+              </p>
             </div>
-        </section>
+          </a>
+
+          <!-- Purin Car -->
+          <a href="projects/purin-car.html" class="project-card-container">
+            <div class="project-image-wrapper">
+              <img
+                src="public/projects/purin_car/thumbnail.png"
+                alt="Purin Car"
+                class="project-thumbnail"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Purin Car</h3>
+              <p class="description">ANDROID APP · FULL STACK DEVELOPMENT</p>
+            </div>
+          </a>
+
+          <!-- Fabflix -->
+          <a href="projects/fabflix.html" class="project-card-container">
+            <div class="project-image-wrapper">
+              <img
+                src="public/projects/fabflix/thumbnail.png"
+                alt="Fabflix"
+                class="project-thumbnail"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Fabflix</h3>
+              <p class="description">WEB APP · FULL STACK DEVELOPMENT</p>
+            </div>
+          </a>
+
+          <!-- Guidance Glasses -->
+          <a
+            href="projects/guidance-glasses.html"
+            class="project-card-container"
+          >
+            <div class="project-image-wrapper">
+              <img
+                src="public/projects/guidance_glasses/thumbnail.png"
+                alt="Guidance Glasses"
+                class="project-thumbnail"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Guidance Glasses</h3>
+              <p class="description">
+                EMBEDDED SYSTEMS · COMPUTER VISION · MACHINE LEARNING
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="footer-container">
-            <p class="footer-text">Stay in touch</p>
-            <div class="icon-container">
-                <a class="icon-link" href="https://www.linkedin.com/in/donovan-chen/" target="_blank" aria-label="LinkedIn">
-                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-                </a>
-                <a class="icon-link" href="https://github.com/DonChenn" target="_blank" aria-label="GitHub">
-                    <span class="fa-brands fa-github" aria-hidden="true"></span>
-                </a>
-                <a class="icon-link" href="mailto:DonovanAChen@email.com" aria-label="Email">
-                    <span class="fa-solid fa-envelope" aria-hidden="true"></span>
-                </a>
-            </div>
+      <div class="footer-container">
+        <p class="footer-text">Stay in touch</p>
+        <div class="icon-container">
+          <a
+            class="icon-link"
+            href="https://www.linkedin.com/in/donovan-chen/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+          </a>
+          <a
+            class="icon-link"
+            href="https://github.com/DonChenn"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <span class="fa-brands fa-github" aria-hidden="true"></span>
+          </a>
+          <a
+            class="icon-link"
+            href="mailto:DonovanAChen@email.com"
+            aria-label="Email"
+          >
+            <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+          </a>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

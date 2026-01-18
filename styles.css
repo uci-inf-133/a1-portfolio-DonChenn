@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700;800&display=swap");
 
 html,
 body {
@@ -52,7 +52,7 @@ header {
 }
 
 .nav-bar {
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 3rem;
 }
 
 .nav-container {
@@ -77,23 +77,10 @@ header {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
-  .logo-name {
-    font-size: 1.5rem;
-  }
-}
-
 .nav-links {
   display: flex;
   list-style: none;
   gap: 1.5rem;
-}
-
-@media (max-width: 767px) {
-  .nav-links {
-    /* Simplify for mobile in pure HTML/CSS if no JS toggle */
-    gap: 1rem;
-  }
 }
 
 .nav-projects,
@@ -178,26 +165,6 @@ header {
   aspect-ratio: 3 / 2;
 }
 
-@media (max-width: 850px) {
-  .intro-container {
-    flex-direction: column-reverse;
-    text-align: center;
-    gap: 2rem;
-  }
-
-  .intro-text-container {
-    max-width: 100%;
-  }
-
-  .name {
-    font-size: 2.5rem;
-  }
-
-  .intro-img-container img {
-    max-width: 300px;
-  }
-}
-
 /* Projects Section */
 .projects-section {
   padding: 0 3rem;
@@ -211,13 +178,6 @@ header {
   grid-template-columns: 1fr;
   gap: 3rem;
   margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-  .project-cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-  }
 }
 
 .project-card-container {
@@ -357,12 +317,12 @@ h2.project-subtitle {
 }
 
 .description-section {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .description-header {
-    margin-top: 2rem;
-    font-size: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
 .description-images-container {
@@ -427,10 +387,150 @@ footer {
   opacity: 0.7;
 }
 
+/* Large Screens (Desktop - 900px and up) */
+@media (min-width: 900px) {
+  .logo-name {
+    font-size: 1.5rem;
+  }
+
+  .project-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+/* Medium Screens (Tablets - 600px to 899px) */
+@media (max-width: 899px) {
+  .intro-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .intro-text-container {
+    max-width: 100%;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .intro-img-container img {
+    max-width: 400px;
+  }
+
+  .project-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .project-details-thumbnail {
+    max-width: 80%;
+  }
+
+  .project-info {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small Screens (Mobile - under 600px) */
 @media (max-width: 600px) {
-    .footer-container {
-        flex-direction: column;
-        gap: 1.5rem;
-        text-align: center;
-    }
+  .nav-bar {
+    padding: 1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    padding: 2rem 1rem;
+  }
+
+  .intro-container {
+    padding: 0 1rem;
+  }
+
+  .intro-img-container img {
+    max-width: 100%;
+  }
+
+  .projects-section {
+    padding: 0 1.5rem;
+  }
+
+  .about-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .project-info,
+  .project-info thead,
+  .project-info tbody,
+  .project-info th,
+  .project-info td,
+  .project-info tr {
+    display: block;
+  }
+
+  .project-info thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .project-info tr {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+
+  .project-info td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  .project-info td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .project-info td:nth-of-type(1):before {
+    content: "Role";
+  }
+  .project-info td:nth-of-type(2):before {
+    content: "Tech Stack";
+  }
+  .project-info td:nth-of-type(3):before {
+    content: "Links";
+  }
+
+  .project-detail-body {
+    margin: 0 1rem 4rem 1rem;
+  }
+
+  .project-details-thumbnail {
+    max-width: 100%;
+  }
 }
