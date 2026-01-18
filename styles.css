@@ -10,7 +10,7 @@ body {
 body {
   line-height: 1.6;
   color: rgb(42, 45, 56);
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
   background: #f9f9f9;
   min-height: 100vh;
 }
@@ -18,7 +18,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -1px;
@@ -70,7 +70,7 @@ header {
 }
 
 .logo-name {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
   text-decoration: underline;
   color: #000;
   font-size: 1.125rem;
@@ -99,7 +99,7 @@ header {
 .nav-projects,
 .nav-about,
 .nav-resume {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
   color: #000;
   text-decoration: underline;
 }
@@ -262,7 +262,7 @@ header {
 }
 
 .project-title {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
   font-size: 1.75rem;
   margin-top: 0.5rem;
   margin-bottom: 0.1rem;
@@ -284,12 +284,21 @@ header {
   text-align: center;
 }
 
+h2.project-subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
 .project-info {
   width: 100%;
   max-width: 800px;
   margin: 2rem auto;
   border-collapse: collapse;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
 }
 
 .project-thumbnail-container {
