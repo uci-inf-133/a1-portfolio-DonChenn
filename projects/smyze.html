@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMYZE | Donovan Chen</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <div class="logo-container">
+                    <a class="logo-name" href="../index.html">Donovan Chen</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a class="nav-projects" href="../projects.html" style="font-weight: 800;">projects</a></li>
+                    <li><a class="nav-about" href="../about.html">about</a></li>
+                    <li><a class="nav-resume" href="../public/Donovan_Chen_2026.pdf" target="_blank">resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="project-detail-body">
+        <div class="project-details-container">
+            <div class="project-details-header">
+                <h1>SMYZE</h1>
+                <h4>MOBILE APP · WEB APP · FULL STACK DEVELOPMENT</h4>
+            </div>
+            <div class="project-thumbnail-container">
+                <img class="project-details-thumbnail" src="../public/projects/smyze/thumbnail.png" alt="SMYZE thumbnail">
+            </div>
+            <table class="project-info">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Tech Stack</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Full Stack Software Engineer Intern</td>
+                        <td>
+                            <ul class="project-info-list">
+                                <li>Flutter</li>
+                                <li>React</li>
+                                <li>MedusaJS</li>
+                                <li>Typescript</li>
+                                <li>Vue</li>
+                                <li>Dart</li>
+                                <li>Alibaba Cloud</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="project-info-list">
+                                <li><a href="https://smyze.cn/" target="_blank">Company Website</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="project-information">
+            <div class="project-description-item">
+                <h3>Description</h3>
+                <p>Smyze is a fully automated robotic drink station. During my time with SMYZE, I worked as a Full Stack Developer contributing to their Medusa v2 commerce backend and WeChat/Kiosk interfaces.</p>
+            </div>
+            <div class="project-description-item">
+                <h3>Backend</h3>
+                <p>I build a react website outlet management system within Medusa v2 that had custom workflows and hooks which contained all the information of each physical store with PayloadCMS across Kiosk, WeChat Mini Program, and Admin interfaces. It controlled which products, kiosks, and regions to support the store operations. I also developed a product cloning module that enabled duplicating of products with overrides for pricing, ingredients, and metadata per location while maintaining parent child data relationships.</p>
+                <div class="description-images-container">
+                    <img src="../public/projects/smyze/outlet.png" alt="Backend 1" class="description-image">
+                </div>
+            </div>
+            <div class="project-description-item">
+                <h3>Kiosk</h3>
+                <p>I developed the Flutter-based Kiosk application that dynamically loads the menu by filtering products and applying store specific overrides for pricing and availability from the Medusa backend. I also integrated a hybrid checkout option to pay with WeChat Pay through QR codes to transfer carts to WeChat.</p>
+                <div class="description-images-container">
+                    <img src="../public/projects/smyze/kiosk_menu.png" alt="Kiosk 1" class="description-image">
+                    <img src="../public/projects/smyze/kiosk_item.png" alt="Kiosk 2" class="description-image">
+                </div>
+            </div>
+            <div class="project-description-item">
+                <h3>WeChat</h3>
+                <p>I built the WeChat Program to serve as a mobile store with customer loyalty points. I implemented secure authentication linking WeChat identities to Medusa profiles and developed a complete e-commerce flow with store-specific menus and coupon redemption.</p>
+                <div class="description-images-container">
+                    <img src="../public/projects/smyze/wechat_menu.png" alt="WeChat 1" class="description-image">
+                    <img src="../public/projects/smyze/wechat_confirm.png" alt="WeChat 2" class="description-image">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">Stay in touch</p>
+            <div class="icon-container">
+                <a class="icon-link" href="https://www.linkedin.com/in/donovan-chen/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/DonChenn" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="icon-link" href="mailto:DonovanAChen@email.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

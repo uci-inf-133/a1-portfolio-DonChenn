@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidance Glasses | Donovan Chen</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <div class="logo-container">
+                    <a class="logo-name" href="../index.html">Donovan Chen</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a class="nav-projects" href="../projects.html" style="font-weight: 800;">projects</a></li>
+                    <li><a class="nav-about" href="../about.html">about</a></li>
+                    <li><a class="nav-resume" href="../public/Donovan_Chen_2026.pdf" target="_blank">resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="project-detail-body">
+        <div class="project-details-container">
+            <div class="project-details-header">
+                <h1>Guidance Glasses</h1>
+                <h4>EMBEDDED SYSTEMS · COMPUTER VISION · MACHINE LEARNING</h4>
+            </div>
+            <div class="project-thumbnail-container">
+                <img class="project-details-thumbnail" src="../public/projects/guidance_glasses/thumbnail.png" alt="Guidance Glasses thumbnail">
+            </div>
+            <table class="project-info">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Tech Stack</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Embedded Systems Engineer</td>
+                        <td>
+                            <ul class="project-info-list">
+                                <li>Python</li>
+                                <li>YOLOv5</li>
+                                <li>Nvidia Jetson Nano</li>
+                                <li>C</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="project-info-list">
+                                <li><a href="https://github.com/franciscotimoh/gb-glasses" target="_blank">GitHub</a></li>
+                                <li><a href="../public/projects/guidance_glasses/slideshow.pdf" target="_blank">Presentation</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="project-information">
+            <div class="project-description-item">
+                <h3>The Problem</h3>
+                <p>Current cityscapes are not designed to accommodate the visually impaired. Cityscapes are filled with multiple obstacles that move in and out of people's’ paths, making it a dangerous environment to navigate. Current solutions still have many issues including, white canes being unable to detect objects that are outside of the user’s immediate range and smart glasses have high costs and are unable to measure distances, </p>
+            </div>
+            <div class="project-description-item">
+                <h3>Our Solution</h3>
+                <p>The goal of the guidance glasses is to assist visually impaired people in being able to safely cross the street. The glasses use a combination of information provided by a camera, and microphone to assess whether it’s okay to cross the street. The ultrasonic provides additional information about obstacles in front of the user. This is then communicated to the user through vibrations from haptic feedback motors.</p>
+                <ul>
+                    <li>Camera uses a custom-trained YOLOv5 model to detect and recognize pedestrian stop or walk signs.</li>
+                    <li>Microphone listens to sounds that might come from pedestrian walk and stop signals to add to the algorithm’s confidence level on if it is a walk signal or not. It also measures the decibels of ambient sounds to determine if there is a car.</li>
+                    <li>Ultrasonic sensor detects any objects within its range and how far they are to determine if an obstacle is in the way.</li>
+                    <li>Haptic feedback motors located on both temples then communicate all of this through vibrations of varying frequencies and intensities.</li>
+                </ul>
+                <div class="description-images-container">
+                    <img src="../public/projects/guidance_glasses/dataset.png" alt="Our Solution 1" class="description-image">
+                    <img src="../public/projects/guidance_glasses/guidanceglasses_ultrasonic.png" alt="Our Solution 2" class="description-image">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">Stay in touch</p>
+            <div class="icon-container">
+                <a class="icon-link" href="https://www.linkedin.com/in/donovan-chen/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/DonChenn" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="icon-link" href="mailto:DonovanAChen@email.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabflix | Donovan Chen</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-container">
+                <div class="logo-container">
+                    <a class="logo-name" href="../index.html">Donovan Chen</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a class="nav-projects" href="../projects.html" style="font-weight: 800;">projects</a></li>
+                    <li><a class="nav-about" href="../about.html">about</a></li>
+                    <li><a class="nav-resume" href="../public/Donovan_Chen_2026.pdf" target="_blank">resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="project-detail-body">
+        <div class="project-details-container">
+            <div class="project-details-header">
+                <h1>Fabflix</h1>
+                <h4>WEB APP · FULL STACK DEVELOPMENT</h4>
+            </div>
+            <div class="project-thumbnail-container">
+                <img class="project-details-thumbnail" src="../public/projects/fabflix/thumbnail.png" alt="Fabflix thumbnail">
+            </div>
+            <table class="project-info">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Tech Stack</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Full Stack Developer</td>
+                        <td>
+                            <ul class="project-info-list">
+                                <li>Frontend: HTML, CSS, JavaScript (AJAX)</li>
+                                <li>Backend: Java (Servlets, JDBC, SAX Parser)</li>
+                                <li>Database: MySQL</li>
+                                <li>DevOps: Docker, Kubernetes</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="project-info-list">
+                                <li><a href="https://github.com/DonChenn/Fabflix" target="_blank">GitHub</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="project-information">
+            <div class="project-description-item">
+                <h3>Description</h3>
+                <p>Fabflix is a movie e-commerce site I built to explore scalable web architecture. Instead of a single massive app, I broke it down into microservices using Java and Maven, keeping the user login logic separate from the movie browsing. I containerized the system with Docker and hosted it on AWS, using Kubernetes to manage deployments and auto-scaling. For the data, I set up a MySQL cluster with Primary-Replica databases to ensure speed and reliability under load. I also added security with JWTs for user sessions and integrated Google reCAPTCHA to prevent bot abuse.</p>
+                <div class="description-images-container">
+                    <img src="../public/projects/fabflix/login.png" alt="Description 1" class="description-image">
+                    <img src="../public/projects/fabflix/catalog.png" alt="Description 2" class="description-image">
+                    <img src="../public/projects/fabflix/admin.png" alt="Description 3" class="description-image">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">Stay in touch</p>
+            <div class="icon-container">
+                <a class="icon-link" href="https://www.linkedin.com/in/donovan-chen/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/DonChenn" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="icon-link" href="mailto:DonovanAChen@email.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
